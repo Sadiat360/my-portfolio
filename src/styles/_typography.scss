@@ -1,0 +1,32 @@
+@use './variables' as *;
+
+  @font-face {
+    font-family: 'Karma-light';
+    src: url(../../assets/fonts/Karma-Light.ttf) format("tff1");
+    font-weight: 300;
+  }
+  @font-face {
+    font-family: 'Karma-Regular';
+    src: url(../../assets/fonts/Karma-Regular.ttf) format("tff2");
+    font-weight: 400;
+  }
+
+  @font-face {
+    font-family: 'Karma-Medium';
+    src: url(../../assets/fonts/Karma-Medium.ttf) format("tff1");
+    font-weight: 500;
+    
+  }
+  @font-face {
+    font-family: 'Karma-SemiBold';
+    src: url(../../assets/fonts/Karma-SemiBold.ttf) format("tff2");
+    font-weight: 600;
+    
+  }
+ 
+  @font-face {
+    font-family: 'Karma-Bold';
+    src: url(../../assets/fonts/Karma-Bold.ttf) format("tff1");
+    font-weight: 700;
+    
+  }
