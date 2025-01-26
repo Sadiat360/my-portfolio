@@ -17,3 +17,11 @@
    display: flex;
    flex-direction: $direction;
  }
+ @mixin box-shadow{
+  box-shadow: rgba(0, 34, 91, 0.11) 0px 2px 10px 0px;
+}
+@mixin logo {
+  width: 7.5rem;
+  text-decoration: none;
+  padding: 1rem;
+}
