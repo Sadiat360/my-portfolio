@@ -5,6 +5,8 @@ import AboutMePage from './pages/AboutMePage/AboutMePage.jsx'
 import CertificatePage from './pages/CertificatePage/CertificatePage.jsx'
 import ResumePage from './pages/ResumePage/ResumePage.jsx'
 import { BrowserRouter,Routes, Route } from 'react-router-dom';
+import FullStackPage from './pages/FullStackPage/FullStackPage.jsx'
+import  UXPage from './pages/UXPage/UXPage.jsx'
 import Hero from './components/Hero/Hero.jsx';
 
 function App() {
@@ -21,6 +23,8 @@ function App() {
       <Route path='/AboutMePage' element={< AboutMePage/>}/>
       <Route path='/CertificatePage' element={< CertificatePage/>}/>
       <Route path='/ResumePage' element={< ResumePage/>}/>
+      <Route path='/FullStackPage' element={< FullStackPage/>}/>
+      <Route path='/UXPage' element={<  UXPage/>}/>
       
      </Routes>
      

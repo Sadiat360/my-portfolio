@@ -8,6 +8,8 @@ import { FaGithub } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
 import { Link } from 'react-router-dom'
+import mobLine from '../../assets/images/mobLine.png'
+import connectmob from '../../assets/images/connectmob.png'
 
 
 function Hero(){
@@ -43,6 +45,22 @@ function Hero(){
                     <img src={connectData} alt="let's connect" />
                     <div className='hero__line'>
                         <img className='hero__line_img' src={lineData} alt="image" />
+                    </div>
+                </div>
+                <div className='connectMob'>
+                    <div className='connectMob__line'>
+                        <img className='connectMob__line_img' src={mobLine} alt="image" />
+                    </div>
+                   
+                    <ul className='connectMob__list'>
+                        <li className='connectMob__item'><a href=""><MdEmail className='hero__icon' /></a></li>
+                        <li className='connectMob__item'><a href="https://github.com/Sadiat360"><FaGithub className='hero__icon'/></a></li>
+                        <li className='connectMob__item'><a href="https://www.linkedin.com/in/halimatsadiat-yaya/"><FaLinkedinIn className='hero__icon' /></a></li>
+                        <li className='connectMob__item'><a href=""><FaInstagram className='hero__icon'/></a></li>
+                    </ul>
+                    <p className='p1'>Let's Connect</p>
+                    <div className='connectMob__line'>
+                        <img className='connectMob__line_img' src={mobLine} alt="image" />
                     </div>
                 </div>
 
