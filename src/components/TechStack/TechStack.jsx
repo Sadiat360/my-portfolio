@@ -1,15 +1,15 @@
 import './TechStack.scss'
-import JsSvg from "../JsSvg/JsSvg";
-import ReactSvg from '../ReactSvg/ReactSvg';
-import HtmlSvg from '../HtmlSvg/HtmlSvg';
-import MysqlSvg from '../MysqlSvg/MysqlSvg';
-import SqlSvg from '../SqlSvg/SqlSvg.jsx';
-import CssSvg from '../CssSvg/CssSvg';
-import NodeSvg from '../NodeSvg/NodeSvg';
-import SassSvg from '../SassSvg/SassSvg.jsx';
+import JsSvg from "../../helpers/JsSvg/JsSvg.jsx";
+import ReactSvg from '../../helpers/ReactSvg/ReactSvg';
+import HtmlSvg from '../../helpers/HtmlSvg/HtmlSvg';
+import MysqlSvg from '../../helpers/MysqlSvg/MysqlSvg';
+import SqlSvg from '../../helpers/SqlSvg/SqlSvg.jsx';
+import CssSvg from '../../helpers/CssSvg/CssSvg';
+import NodeSvg from '../../helpers/NodeSvg/NodeSvg';
+import SassSvg from '../../helpers/SassSvg/SassSvg.jsx';
 import morphData from '../../assets/images/morph.png'
-import DevSvg from '../DevSvg/DevSvg.jsx';
-import UISvg from '../UISvg/UISvg.jsx';
+import DevSvg from '../../helpers/DevSvg/DevSvg.jsx';
+import UISvg from '../../helpers/UISvg/UISvg.jsx';
 import { Link } from 'react-router-dom';
 
 function TeckStack(){
@@ -18,7 +18,7 @@ function TeckStack(){
             <h2 className=" techStack__heading h2">Teck Stack</h2>
             <div className="techStack__container">
                 <div className="techStack__wrap">
-                    <div className='techStack__frame_left'>
+                    <div className='techStack__frame'>
                        <div className="techStack__box">
                           <JsSvg className='techStack__image' />
                        </div>

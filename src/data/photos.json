@@ -4,14 +4,18 @@
         "photo": "src/assets/images/Snaps.png",
         "projectName": "Snaps",
         "description":"Snaps a photo-sharing app similar to Instagram, where photographers can share their work.",
-        "stack": ["JavaScript", "Express.js", "Scss" , "React"]
+        "stack": ["JavaScript", "Express.js", "Scss" , "React"],
+        "url": "https://snapsweb.netlify.app/",
+        "code": "https://github.com/Sadiat360/halimat-yaya-snaps-sprint"
     },
     {
         "id": "dc91f344-a544-49be-958b-a26e7172c370",
         "photo": "src/assets/images/Bandsite.png",
         "projectName": "Bandsite",
         "description":"Bandsite a musical website for music lovers where they can keep up with favorite Band, concerts, check conecerts dates and locations and also add comments on the website",
-        "stack": ["JavaScript", "CSS" , "HTML"]
+        "stack": ["JavaScript", "CSS" , "HTML"],
+        "url": "https://drive.google.com/file/d/13Ol9i2K48TKrP8PipVemdl7qFG44UzOR/view?usp=sharing",
+        "code": "https://github.com/Sadiat360/halimat-yaya-bandsite-1"
     },
     {
         "id": "718a9e21-18ac-4088-b26c-2b5de75152bb",
@@ -19,6 +23,9 @@
         "projectName": "Instock",
         "description":"Instock is a group project. This is Inventory Management System website ",
         "myRole": "I worked across board on this project on both front end and back end. I worked on the Edit Inventory form(front-end/back-end), Add new Inventory form (front-end/back-end), Header/footer",
-        "stack": ["JavaScript", "Express.js", "Scss","Node.js" , "React"]
+        "stack": ["JavaScript", "Express.js", "Scss","Node.js" , "React"],
+         "url": "/",
+        "code": "https://github.com/rmasuda12/code-crusaders-instock"
+        
     }
 ]

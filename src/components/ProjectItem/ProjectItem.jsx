@@ -1,6 +1,8 @@
 import './ProjectItem.scss'
 import { useState } from 'react';
 import photosData from '../../data/photos.json'
+import { FaGithub } from "react-icons/fa6";
+import { LuSquareArrowOutUpRight } from "react-icons/lu";
 
 
 function ProjectItem(){
@@ -12,23 +14,39 @@ function ProjectItem(){
         <>
              {photosData.map((photo,index)=>{
                 return(
-             <div className='projects__frame'>
-                    <div className='projects__box' key={index}>
-                        <img className='projects__image'src={photo.photo} alt="image" />
-                    </div>
-                    <p>{photo.projectName}</p>
-                    <p>{photo.description}</p>
-                    <ul>
-                    {photo.stack?.map((stack,index)=>{
-                        <li key={index}>
-                            {photo.stack}
-
-                        </li>
-                    })}
-
-                    </ul>
-
-          </div>
+                  <div className='projects__frame'>
+                     
+                       <div className='projects__box' key={index}>
+                       <a  href={photo.url}>
+                          <img className='projects__image'src={photo.photo} alt="image" />
+                       </a>
+                        </div>
+                        <div className='projects__wrap'>
+                            <p className='projects__title'>{photo.projectName}</p>
+                            <p className='projects__description p1'>{photo.description}</p>
+                            <ul className='projects__list'>
+                            {photo.stack?.map((element, stackIndex)=>(
+                                <li className='projects__item p1' key={stackIndex}>
+                                    {element}
+    
+                                </li>
+                            ))}
+    
+                            </ul>
+                            <div className='projects__links'>
+                               <a className='projects__ref p1' href={photo.url}>
+                                   <p className='projects__txt p1'>Demo</p>
+                                   <LuSquareArrowOutUpRight /> 
+                               </a>
+                               <a className='projects__ref p1' href={photo.code}>
+                                   <p className='projects__txt p1'>Code</p>
+                                   <FaGithub/>
+                               </a>
+                        </div>
+    
+                        </div>
+                       
+                  </div>
                )
             })}
         </>

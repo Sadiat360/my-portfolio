@@ -26,7 +26,7 @@ function Hero(){
                     <div className='hero__frame'>
                       <img className='hero__image' src={heroTwo} alt="image of me enjoying nature" />
                     </div>
-                    <h1 className='h1'>Hi, I'm Halimat</h1>
+                    <h1 className='hero__title h1'>Hi, I'm Halimat...... <span className='hero__span'> a Full Stack Dev</span></h1>
                     <p>Welcome to my creative space</p>
                     <button className='hero__btn'><Link to='/ResumePage'>View Resume</Link></button>
                    

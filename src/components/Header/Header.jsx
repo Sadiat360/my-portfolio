@@ -1,8 +1,8 @@
 import './Header.scss';
 import {Link}  from 'react-router-dom';
-import MenuBar from '../MenuBar/MenuBar.jsx'
+import MenuBar from '../../helpers/MenuBar/MenuBar.jsx'
 import { useState } from 'react';
-import CloseBar from '../CloseBar/CloseBar.jsx';
+import CloseBar from '../../helpers/CloseBar/CloseBar.jsx';
 import logoData from '../../assets/images/logo.png'
 
 function Header(){
@@ -21,6 +21,8 @@ function Header(){
          <nav className='header__nav'>
             <ul className='header__list'>
               <li className='header__item'> <Link to='/'>Home</Link> </li>
+              <li className='header__item'> <Link to='/FullStackPage'>Software Dev</Link> </li>
+              <li className='header__item'> <Link to='/UXPage'>UI/UX</Link> </li>
               <li className='header__item'> <Link to='/AboutMePage'>About Me</Link> </li>
               <li className='header__item'><Link to='/CertificatePage'>Certificates</Link></li>
             </ul>
@@ -40,6 +42,8 @@ function Header(){
 
                <ul className='header__list-mob'>
                      <li className='header__item'> <Link to='/'>Home</Link> </li>
+                     <li className='header__item'> <Link to='/FullStackPage'>Software Dev</Link> </li>
+                     <li className='header__item'> <Link to='/UXPage'>UI/UX</Link> </li>
                      <li className='header__item'> <Link to='/AboutMePage'>About Me</Link> </li>
                      <li className='header__item'><Link to='/CertificatePage'>Certificates</Link></li>
                </ul>

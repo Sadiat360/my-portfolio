@@ -3,15 +3,10 @@
 @use '../../styles/typography' as *;
 @use '../../styles/variables' as *;
 
-.projects{
+.ux{
     width: 100%;
     padding: 1rem;
     padding-top: 5rem;
-
-    &__heading{
-        text-align: center;
-    }
-
     &__container{
         margin-top: 2rem;
         width: 100%;
@@ -94,7 +89,7 @@
         margin: 0 auto;
     }
     &__ref{
-        width: 50%;
+        width: 70%;
         @include flex-center(row);
         align-items: center;
         &:hover{

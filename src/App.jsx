@@ -7,7 +7,7 @@ import ResumePage from './pages/ResumePage/ResumePage.jsx'
 import { BrowserRouter,Routes, Route } from 'react-router-dom';
 import FullStackPage from './pages/FullStackPage/FullStackPage.jsx'
 import  UXPage from './pages/UXPage/UXPage.jsx'
-import Hero from './components/Hero/Hero.jsx';
+import Footer from './components/Footer/Footer.jsx';
 
 function App() {
   
@@ -28,7 +28,7 @@ function App() {
       
      </Routes>
      
-      
+     <Footer/>
      
      </BrowserRouter>
 

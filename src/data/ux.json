@@ -1,0 +1,30 @@
+[
+    {
+        "id": "92c88f9c-7cb3-4427-8613-ebc4c8bdbf09",
+        "image": "src/assets/images/HelpCo.png",
+        "projectName": "Help.Co",
+        "description":"Help.co enables users to request cleaning services online, connecting busy individuals with professional cleaners.",
+        "tool": ["Figma", "Miro"],
+        "prototype": "https://snapsweb.netlify.app/",
+        "casestudy": "https://www.behance.net/gallery/155973635/UX-CASE-STUDY-HELPCO"
+    },
+    {
+        "id": "dc91f344-a544-49be-958b-a26e7172c370",
+        "image": "src/assets/images/Uber.png",
+        "projectName": "Uber-Apple watch",
+        "description":"Bandsite a musical website for music lovers where they can keep up with favorite Band, concerts, check conecerts dates and locations and also add comments on the website",
+        "tool": ["Figma", "Miro" , "Whimsical"],
+        "prototype": "https://www.behance.net/gallery/150739021/Uber-Apple-Watch-UI",
+        "casestudy": "https://www.behance.net/gallery/150739021/Uber-Apple-Watch-UI"
+    },
+    {
+        "id": "718a9e21-18ac-4088-b26c-2b5de75152bb",
+        "image": "src/assets/images/Melissa.png",
+        "projectName": "Melissa",
+        "description":"Instock is a group project. This is Inventory Management System website ",
+        "tool": ["Figma", "Miro"],
+         "prototype": "https://www.behance.net/gallery/148660549/A-Responsive-Landing-Page",
+        "casestudy": "https://www.behance.net/gallery/148660549/A-Responsive-Landing-Page"
+        
+    }
+]
