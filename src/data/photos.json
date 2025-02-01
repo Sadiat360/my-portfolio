@@ -9,6 +9,15 @@
         "code": "https://github.com/Sadiat360/halimat-yaya-snaps-sprint"
     },
     {
+        "id": "92c88f9c-7cb3-4427-8613-ebc4c8bdbf09",
+        "photo": "src/assets/images/inspireShare.png",
+        "projectName": "InspireShare",
+        "description":"InspireShare is an app designed to spread love and positivity by helping users create personalized cards filled with inspirational quotes, music, and images to support friends and loved ones during tough times.",
+        "stack": ["JavaScript", "Express.js", "Scss" , "React"],
+        "url": "/",
+        "code": "https://github.com/Sadiat360/inspireShare-client"
+    },
+    {
         "id": "dc91f344-a544-49be-958b-a26e7172c370",
         "photo": "src/assets/images/Bandsite.png",
         "projectName": "Bandsite",

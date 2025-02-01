@@ -7,10 +7,13 @@ import SqlSvg from '../../helpers/SqlSvg/SqlSvg.jsx';
 import CssSvg from '../../helpers/CssSvg/CssSvg';
 import NodeSvg from '../../helpers/NodeSvg/NodeSvg';
 import SassSvg from '../../helpers/SassSvg/SassSvg.jsx';
-import morphData from '../../assets/images/morph.png'
 import DevSvg from '../../helpers/DevSvg/DevSvg.jsx';
 import UISvg from '../../helpers/UISvg/UISvg.jsx';
 import { Link } from 'react-router-dom';
+import FigmaSvg from '../../helpers/FigmaSvg/FigmaSvg.jsx';
+import HerokuSvg from '../../helpers/HerokuSvg/HerokuSvg.jsx';
+import MiroSvg from '../../helpers/MiroSvg/MiroSvg.jsx';
+import PostmanSvg from '../../helpers/PostmanSvg/PostmanSvg.jsx';
 
 function TeckStack(){
     return(
@@ -31,6 +34,12 @@ function TeckStack(){
                        <div className="techStack__box">
                           <MysqlSvg className='techStack__image' />
                        </div>
+                       <div className="techStack__box">
+                          <FigmaSvg className='techStack__image' />
+                       </div>
+                       <div className="techStack__box">
+                          <MiroSvg className='techStack__image' />
+                       </div>
                     </div>
 
                   <div className='techStack__frame'>
@@ -46,17 +55,29 @@ function TeckStack(){
                         <div className="techStack__box">
                            <SassSvg className='techStack__image' />
                         </div>
+                        <div className="techStack__box">
+                           <HerokuSvg className='techStack__image' />
+                        </div>
+                        <div className="techStack__box">
+                           <PostmanSvg className='techStack__image' />
+                        </div>
 
                   </div>
                    
                     
                 </div>
             </div>
+            <article className='techStack__projects'>
+            <h2 className=" techStack__heading h2">Projects</h2>
+            <p className=' techStack__recent p1'>These are my most recent projects </p>
+
+            </article>
+           
 
             <div  className='fullStack'> 
+          
                 <Link to='/FullStackPage'> 
                      <div className='fullStack__container'>
-                         <img  className='fullStack__image' src={morphData} alt="image" />
                          <DevSvg className='fullStack__icon'/>
                          <article className='fullStack__text-box'>
                          <p className='fullStack__text p1'>Full Stack Development Projects</p>
@@ -65,7 +86,6 @@ function TeckStack(){
                 </Link>
                 <Link to='/UXPage'>
                     <div className='fullStack__container'>
-                           <img  className='fullStack__image' src={morphData} alt="image" />
                            <UISvg className='fullStack__icon'/>
                            <article className='fullStack__text-box'>
                              <p className='fullStack__text p1'>User Interface/User Experience Design Projects</p>

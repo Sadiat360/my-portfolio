@@ -1,6 +1,6 @@
 function JsSvg(){
     return(
-        <svg width="60px" height="80px" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid">
+        <svg width="40px" height="60px" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid">
         <g>
             <path d="M0,0 L256,0 L256,256 L0,256 L0,0 Z" fill="#F7DF1E">
     

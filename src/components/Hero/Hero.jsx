@@ -16,19 +16,23 @@ function Hero(){
 
 
     return(
-        <section className="hero">
+        <section className="hero" id='hero'>
             <div className="hero__container">
                 
                 <div className='hero__image_wrap'>
-                    {/* <div className='hero__frame'>
-                      <img className='hero__image' src={heroOne} alt="image of me enjoying nature" />
-                    </div> */}
                     <div className='hero__frame'>
                       <img className='hero__image' src={heroTwo} alt="image of me enjoying nature" />
                     </div>
-                    <h1 className='hero__title h1'>Hi, I'm Halimat...... <span className='hero__span'> a Full Stack Dev</span></h1>
+                     <article className='hero__intro'>
+                     <h1 className='hero__title h1'>Hi, I'm Halimat <span className='hero__span'> a Full Stack Developer </span>based in Calgary Canada
+                     </h1>
+
+                     </article>
+                    
+
+                    
                     <p>Welcome to my creative space</p>
-                    <button className='hero__btn'><Link to='/ResumePage'>View Resume</Link></button>
+                   <button className='hero__btn'><a href="https://docs.google.com/document/d/1_efzcRAFGKI8pLUD_raNWxsYJOxDQERXqBxv9_jVjM4/edit?usp=sharing">View Resume</a></button>
                    
                 </div>
                 <div className='hero__connect'>

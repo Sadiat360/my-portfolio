@@ -11,6 +11,14 @@ function Header(){
     function toggleMenuBar(){
        setOpenNav(!openNav);
     }
+    function handleSectionClick(event, sectionId){
+           event.preventDefault();
+           const section = document.getElementById(sectionId);
+           if(section){
+            section.scrollIntoView({behavior: "smooth"});
+           }
+           toggleMenuBar()
+    }
    
     return(
         <header className='header'>
@@ -41,11 +49,11 @@ function Header(){
                aria-label='Close Menu'><CloseBar/></button>
 
                <ul className='header__list-mob'>
-                     <li className='header__item'> <Link to='/'>Home</Link> </li>
-                     <li className='header__item'> <Link to='/FullStackPage'>Software Dev</Link> </li>
-                     <li className='header__item'> <Link to='/UXPage'>UI/UX</Link> </li>
-                     <li className='header__item'> <Link to='/AboutMePage'>About Me</Link> </li>
-                     <li className='header__item'><Link to='/CertificatePage'>Certificates</Link></li>
+                     <li onClick={(e) => handleSectionClick(e, 'hero')} className='header__li'> <Link to='/'>Home</Link> </li>
+                     <li onClick={(e) => handleSectionClick(e,'projects')}className='header__li'> <Link to='/FullStackPage'>Software Dev</Link> </li>
+                     <li  onClick={(e) => handleSectionClick(e,'ux')}className='header__li'> <Link to='/UXPage'>UI/UX</Link> </li>
+                     <li onClick={(e) => handleSectionClick(e,'about')} className='header__li'> <Link to='/AboutMePage'>About Me</Link> </li>
+                     <li  onClick={(e) => handleSectionClick(e,'projects')}className='header__li'><Link to='/CertificatePage'>Certificates</Link></li>
                </ul>
             </div>
          </nav>)  : null}

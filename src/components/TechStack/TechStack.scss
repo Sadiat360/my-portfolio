@@ -10,12 +10,12 @@
 
     &__heading{
         text-align: center;
-        color: $white-color;
+        color: $portfolio-black;
         margin-bottom: 2rem;
     }
    
     &__wrap{
-        width: 80%;
+        width: 90%;
         height: 200px;
         margin: 0 auto;
         background-color: $white-color;
@@ -51,27 +51,42 @@
             margin: 0 auto;
         }
     }
+    &__projects{
+        width: 100%;
+        margin-top: 2rem;
+    }
+    &__recent{
+        text-align: center;
+    }
 }
 
 
 .fullStack{
     width: 80%;
+    height: 900px;
     padding-top: 2rem;
-   
+    margin: 0 auto;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
     @include flex-center(column);
+    justify-content: space-between;
 
     @include tablet{
         width: 60%;
+        height: 500px;
         @include flex-center(row);
         justify-content: space-between;
-        margin: 0 auto;
+        
     
     }
 
     &__container{
         width: 21.875rem;
-        position: relative;
+        height: 400px;
+        background-color: $white-color;
+        @include box-shadow;
         padding: 1rem;
+        position: relative;
         cursor: pointer;
         margin: 0 auto;
         transition: transform 0.3s ease, box-shadow 0.3s ease;

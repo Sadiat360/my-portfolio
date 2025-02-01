@@ -10,6 +10,7 @@
 
     &__container{
         width: 100%;
+        margin-top: 5rem;
        
         @include tablet{
             @include flex-center(row-reverse);
@@ -18,11 +19,13 @@
        
     }
     &__image_wrap{
-        width: 90%;
+        width: 70%;
         padding-top: 2rem;
         @include flex-center(column);
         align-items: center;
+        margin: 0 auto;
         @include tablet{
+            width: 90%;
             margin-right: 2rem;
             padding-top: 5rem;
          }
@@ -38,6 +41,16 @@
     }
     &__image{
         width: 100%;
+    }
+    &__intro{
+        padding-bottom: 2rem;
+        @include tablet{
+            width: 60%;
+
+        }
+    }
+    &__title{
+        text-align: center;
     }
     &__connect{
         // height: 250px;
@@ -104,7 +117,7 @@
 }
 .hero__span{
     text-decoration: wavy;
-    color: #109D58;
+    color: $green-color;
 }
 
 .connectMob{
