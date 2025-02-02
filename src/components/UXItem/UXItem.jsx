@@ -10,21 +10,24 @@ function UXItem(){
 
     return(
         <>
+        <div className='ux__container'>
+        <h1 className="projects__heading h1">User Experince and User Interface  Projects</h1>
+
         {UXData.map((image,index)=>{
            return(
              <div className='ux__frame'>
                 
                   <div className='ux__box' key={index}>
-                  <a  href={image.url}>
-                     <img className='ux__image'src={image.image} alt="image" />
-                  </a>
+                      <a  href={image.url}>
+                         <img className='ux__image'src={image.image} alt="image" />
+                      </a>
                    </div>
                    <div className='ux__wrap'>
                        <p className='ux__title'>{image.projectName}</p>
                        <p className='ux__description p1'>{image.description}</p>
                        <ul className='ux__list'>
                        {image.tool?.map((element, stackIndex)=>(
-                           <li className='ux__item p1' key={stackIndex}>
+                           <li className='ux__item p3' key={stackIndex}>
                                {element}
 
                            </li>
@@ -37,7 +40,7 @@ function UXItem(){
                               <LuSquareArrowOutUpRight /> 
                           </a>
                           <a className='ux__ref p1' href={image.casestudy}>
-                              <p className='ux__txt p1'>Case Study</p>
+                              <p className='ux__txt p1'>Case</p>
                               <TbUxCircle />
                           </a>
                    </div>
@@ -47,6 +50,9 @@ function UXItem(){
              </div>
           )
        })}
+            
+        </div>
+        
    </>
     )
 }

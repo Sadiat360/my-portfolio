@@ -13,7 +13,7 @@
     }
 
     &__container{
-        margin-top: 2rem;
+        margin-top: 5rem;
         width: 100%;
     }
 
@@ -27,28 +27,22 @@
         margin-bottom: 2rem;
         padding:  2% 5%;
         border-radius: 5px;
-        animation: slideIn 1s ease-out forwards;
-        @keyframes slideIn {
-            from {
-                left: -100%;
-                opacity: 0;
-            }
-            to {
-                left: 0;
-                opacity: 1;
-            }
-        }
+        margin-top: 1rem;
        
 
         @include tablet{
-               width: 70%;
-               height: 300px;
-               max-width: 900px;
-               margin-bottom: 2.5rem;
-               @include flex-center(row);
+            width: 80%;
+            height: 300px;
+            max-width: 900px;
+            margin-bottom: 5rem;
+            @include flex-center(row);
 
-        }
+     }
+     @include desktop{
+            width: 70%;
+            height: 300px;
     }
+}
     &__box{
         height: 45%;
         width: 100%;
@@ -116,5 +110,8 @@
     }
     &__txt{
         margin-right: 0.25rem;
+    }
+    &__description{
+        padding-top: 0.25rem;
     }
 }

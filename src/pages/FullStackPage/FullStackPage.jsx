@@ -6,8 +6,9 @@ import ProjectItem from "../../components/ProjectItem/ProjectItem";
 function FullStackPage(){
     return(
         <section className="projects" id='projects'>
-            <h1 className="projects__heading h1">Software Development Projects</h1>
+          
             <div className="projects__container">
+                <h1 className="projects__heading h1">Software Development Projects</h1>
                 <ProjectItem />
             </div>
         </section>

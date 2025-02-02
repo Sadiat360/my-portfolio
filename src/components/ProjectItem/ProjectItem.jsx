@@ -26,7 +26,7 @@ function ProjectItem(){
                             <p className='projects__description p1'>{photo.description}</p>
                             <ul className='projects__list'>
                             {photo.stack?.map((element, stackIndex)=>(
-                                <li className='projects__item p1' key={stackIndex}>
+                                <li className='projects__item p3' key={stackIndex}>
                                     {element}
     
                                 </li>

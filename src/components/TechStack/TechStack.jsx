@@ -69,7 +69,7 @@ function TeckStack(){
             </div>
             <article className='techStack__projects'>
             <h2 className=" techStack__heading h2">Projects</h2>
-            <p className=' techStack__recent p1'>These are my most recent projects </p>
+            <p className=' techStack__recent p1'>Take a look at my software development projects and user interface and user experience design projects </p>
 
             </article>
            
@@ -80,7 +80,7 @@ function TeckStack(){
                      <div className='fullStack__container'>
                          <DevSvg className='fullStack__icon'/>
                          <article className='fullStack__text-box'>
-                         <p className='fullStack__text p1'>Full Stack Development Projects</p>
+                         <h3 className='fullStack__text h3'>Full Stack Development Projects</h3>
                          </article>  
                      </div>
                 </Link>
@@ -88,7 +88,7 @@ function TeckStack(){
                     <div className='fullStack__container'>
                            <UISvg className='fullStack__icon'/>
                            <article className='fullStack__text-box'>
-                             <p className='fullStack__text p1'>User Interface/User Experience Design Projects</p>
+                             <h3 className='fullStack__text p1'>User Interface/User Experience Design Projects</h3>
                            </article>
                           
                     </div>
