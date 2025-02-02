@@ -20,7 +20,7 @@ import uxData from '../../assets/images/ux.png'
 function TeckStack(){
     return(
         <section className="techStack">
-            <h2 className=" techStack__heading h2">Teck Stack</h2>
+            <h2 className=" techStack__heading h2">Tech Stack</h2>
             <div className="techStack__container">
                 <div className="techStack__wrap">
                     <div className='techStack__frame'>
@@ -71,7 +71,7 @@ function TeckStack(){
             </div>
             <article className='techStack__projects'>
             <h2 className=" techStack__heading h2">Projects</h2>
-            <p className=' techStack__recent p1'>Take a look at my software development projects and user interface and user experience design projects </p>
+            <p className=' techStack__recent p1'>Take a look at my Software development projects and User interface/User experience design projects </p>
 
             </article>
            

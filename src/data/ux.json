@@ -1,7 +1,7 @@
 [
     {
         "id": "92c88f9c-7cb3-4427-8613-ebc4c8bdbf09",
-        "image": "src/assets/images/HelpCo.png",
+        "image": "public/images/HelpCo.png",
         "projectName": "Help.Co",
         "description":"Help.co enables users to request cleaning services online, connecting busy individuals with professional cleaners.",
         "tool": ["UI Design", "UX Research","Prototype"],
@@ -10,7 +10,7 @@
     },
     {
         "id": "dc91f344-a544-49be-958b-a26e7172c370",
-        "image": "src/assets/images/Uber.png",
+        "image": "public/images/Uber.png",
         "projectName": "Uber-Apple watch",
         "description":"The Uber Apple Watch User Interface is a mini project designed to simulate an Uber ride-ordering experience on a watch interface. It aims to enhance user experience while also helping me sharpen my UI design skills and prototyping abilities",
         "tool": ["UI/UX Design", "Prototype"],
@@ -19,7 +19,7 @@
     },
     {
         "id": "718a9e21-18ac-4088-b26c-2b5de75152bb",
-        "image": "src/assets/images/Melissa.png",
+        "image": "public/images/Melissa.png",
         "projectName": "Melissa",
         "description":"Melissa is a beauty e-commerce web/app project focused on UI design to hone my visual design skills",
         "tool": ["UI/UX Design", "Prototype"],
