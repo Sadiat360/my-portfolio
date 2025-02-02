@@ -14,6 +14,8 @@ import FigmaSvg from '../../helpers/FigmaSvg/FigmaSvg.jsx';
 import HerokuSvg from '../../helpers/HerokuSvg/HerokuSvg.jsx';
 import MiroSvg from '../../helpers/MiroSvg/MiroSvg.jsx';
 import PostmanSvg from '../../helpers/PostmanSvg/PostmanSvg.jsx';
+import devData from '../../assets/images/dev.png'
+import uxData from '../../assets/images/ux.png'
 
 function TeckStack(){
     return(
@@ -78,7 +80,9 @@ function TeckStack(){
           
                 <Link to='/FullStackPage'> 
                      <div className='fullStack__container'>
-                         <DevSvg className='fullStack__icon'/>
+                         <div className='fullStack__img-cover'>
+                           <img className='fullStack__img' src={devData} alt="dev image" />
+                         </div>
                          <article className='fullStack__text-box'>
                          <h3 className='fullStack__text h3'>Full Stack Development Projects</h3>
                          </article>  
@@ -86,9 +90,11 @@ function TeckStack(){
                 </Link>
                 <Link to='/UXPage'>
                     <div className='fullStack__container'>
-                           <UISvg className='fullStack__icon'/>
+                           <div className='fullStack__img-cover'>
+                           <img className='fullStack__img' src={uxData} alt="dev image" />
+                         </div>
                            <article className='fullStack__text-box'>
-                             <h3 className='fullStack__text p1'>User Interface/User Experience Design Projects</h3>
+                             <h3 className='fullStack__text h3'>User Interface/User Experience Design Projects</h3>
                            </article>
                           
                     </div>

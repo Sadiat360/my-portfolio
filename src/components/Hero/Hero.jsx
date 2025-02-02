@@ -26,12 +26,11 @@ function Hero(){
                      <article className='hero__intro'>
                      <h1 className='hero__title h1'>Hi, I'm Halimat <span className='hero__span'> a Full Stack Developer </span>based in Calgary Canada
                      </h1>
-
                      </article>
                     
 
                     
-                    <p>Welcome to my creative space</p>
+                    <p className='p1'>Welcome to my creative space</p>
                    <button className='hero__btn'><a href="https://docs.google.com/document/d/1_efzcRAFGKI8pLUD_raNWxsYJOxDQERXqBxv9_jVjM4/edit?usp=sharing">View Resume</a></button>
                    
                 </div>
@@ -41,7 +40,7 @@ function Hero(){
                     </div>
                    
                     <ul className='hero__list'>
-                        <li className='hero__item'><a href=""><MdEmail className='hero__icon' /></a></li>
+                        <li className='hero__item'><a href="mailto:halimatyayas@gmail.com"><MdEmail className='hero__icon' /></a></li>
                         <li className='hero__item'><a href="https://github.com/Sadiat360"><FaGithub className='hero__icon'/></a></li>
                         <li className='hero__item'><a href="https://www.linkedin.com/in/halimatsadiat-yaya/"><FaLinkedinIn className='hero__icon' /></a></li>
                         <li className='hero__item'><a href=""><FaInstagram className='hero__icon'/></a></li>
@@ -57,7 +56,7 @@ function Hero(){
                     </div>
                    
                     <ul className='connectMob__list'>
-                        <li className='connectMob__item'><a href=""><MdEmail className='hero__icon' /></a></li>
+                        <li className='connectMob__item'><a href="mailto:halimatyayas@gmail.com"><MdEmail className='hero__icon' /></a></li>
                         <li className='connectMob__item'><a href="https://github.com/Sadiat360"><FaGithub className='hero__icon'/></a></li>
                         <li className='connectMob__item'><a href="https://www.linkedin.com/in/halimatsadiat-yaya/"><FaLinkedinIn className='hero__icon' /></a></li>
                         <li className='connectMob__item'><a href=""><FaInstagram className='hero__icon'/></a></li>

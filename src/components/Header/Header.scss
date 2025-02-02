@@ -30,9 +30,16 @@
         @include flex-center(row);
         justify-content: space-between;
         text-decoration: none;
+
     }
     &__item{
         text-decoration: none;
+
+        
+        &:hover{
+            border-bottom: 2px solid $portfolio-black;
+            
+        }
     }
     &__nav-mob{
         height: 100%;
@@ -68,7 +75,7 @@
         cursor: pointer;
         height: 50px;
         width: 250px;
-        // transition: ease-in-out 0.5s;
+        
 
         &:hover{
             width: 80px;

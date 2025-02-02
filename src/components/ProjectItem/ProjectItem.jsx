@@ -24,6 +24,7 @@ function ProjectItem(){
                         <div className='projects__wrap'>
                             <p className='projects__title'>{photo.projectName}</p>
                             <p className='projects__description p1'>{photo.description}</p>
+                            <p className='p1'>{photo.myRole}</p>
                             <ul className='projects__list'>
                             {photo.stack?.map((element, stackIndex)=>(
                                 <li className='projects__item p3' key={stackIndex}>

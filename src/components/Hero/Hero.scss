@@ -53,7 +53,6 @@
         text-align: center;
     }
     &__connect{
-        // height: 250px;
         display: none;
 
         @include tablet{
@@ -125,21 +124,26 @@
     @include flex-center(row);
     justify-content: space-between;
     align-items: center;
-    margin-top: 2rem;
+    margin-top: 2.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 
     @include tablet{
         display:  none;
     }
 
     &__line{
-        width:6.25rem;
+        width:5rem;
 
         &_img{
             width: 100%;
         }
     }
     &__list{
+        width: 150px;
+        // background-color: red;
         @include flex-center(row);
+        justify-content: space-between;
        
     }
     &__item{
