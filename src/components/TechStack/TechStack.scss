@@ -1,0 +1,131 @@
+@use '../../styles/global' as * ;
+@use '../../styles/mixins' as *;
+@use '../../styles/typography' as *;
+@use '../../styles/variables' as *;
+
+
+.techStack{
+    width: 100%;
+    padding-top: 5rem;
+
+    &__heading{
+        text-align: center;
+        color: $portfolio-black;
+        margin-bottom: 2rem;
+    }
+   
+    &__wrap{
+        width: 90%;
+        height: 200px;
+        margin: 0 auto;
+        background-color: $white-color;
+        @include flex-center(column);
+        padding-left: 1rem;
+        padding-right: 1rem;
+        @include box-shadow;
+
+        @include tablet{
+            width: 60%;
+        }
+    }
+    
+    &__box{
+        width: 50px;
+        height: 100%;
+    }
+    &__image{
+        width: 100%;
+    }
+   
+    &__frame{
+        width: 100%;
+        height: 400px;
+        @include flex-center(row);
+        justify-content: space-between;
+       @include body-padding-mob;
+       
+        
+        @include tablet{
+            width: 60%;
+            height: 50%;
+            margin: 0 auto;
+        }
+    }
+    &__projects{
+        width: 100%;
+        margin-top: 5rem;
+    }
+    &__recent{
+        text-align: center;
+    }
+    &__projects{
+        @include body-padding-mob;
+    }
+}
+
+
+.fullStack{
+    width: 80%;
+    height: 900px;
+    // padding-top: 2rem;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    @include flex-center(column);
+    justify-content: space-between;
+
+    @include tablet{
+        // width: 0%;
+        height: 500px;
+        @include flex-center(row);
+        justify-content: space-between;
+    }
+    @include desktop{
+        width: 60%;
+    }
+
+    &__container{
+        width: 21.875rem;
+        height: 400px;
+        background-color: $white-color;
+        @include box-shadow;
+        padding: 1rem;
+        position: relative;
+        cursor: pointer;
+        margin: 0 auto;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+        &:hover{
+            transform: translateY(-10px);
+        }
+        
+    }
+    &__image{
+        width: 100%;
+    }
+    &__text{
+        color: $portfolio-black;
+        padding-left: 1rem;
+    }
+    &__text-box{
+        width: 20rem;
+        color: $white-color;
+        position: absolute;
+        bottom: 3.5rem; //95px
+        left: 1.875rem; //30px
+       
+    }
+    &__icon{
+        position: absolute;
+        top: 1.25rem; //20px
+        left: 1.563rem; /// 25px
+    }
+    &__img-cover{
+        width: 100%;
+        height: 70%;
+    }
+    &__img{
+        width: 100%;
+        height: 100%;
+    }
+}

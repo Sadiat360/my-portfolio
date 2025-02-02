@@ -1,0 +1,57 @@
+@use '../../styles/global' as * ;
+@use '../../styles/mixins' as *;
+@use '../../styles/typography' as *;
+@use '../../styles/variables' as *;
+
+
+.resume{
+    width: 100%;
+    padding: 1rem;
+
+    &__container{
+        background-color:$white-color ;
+        @include box-shadow;
+        align-items: center;
+        padding: 1.5rem;
+        @include tablet{
+            width: 80%;
+            margin: 0 auto;
+        }
+    }
+    &__header{
+        text-align: center;
+    }
+    &__list{
+        @include flex-center(row);
+    }
+    &__item{
+        list-style: none;
+    }
+    &__obj{
+        padding-top: 2rem;
+        padding-bottom: 5rem;
+    }
+    &__heading{
+        font-weight: 700;
+        padding-bottom: 0.5rem;
+
+        &_list{
+            margin-bottom: 1rem;
+        }
+    }
+    &__box{
+        @include flex-center(column);
+        @include tablet{
+            @include flex-center(row);
+        }
+       
+    }
+    &__ex{
+        padding-left: 2rem;
+        padding-bottom: 2rem;
+    }
+    &__company{
+        font-weight: 600;;
+    }
+   
+}
