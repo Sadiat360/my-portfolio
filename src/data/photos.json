@@ -9,24 +9,6 @@
         "code": "https://github.com/Sadiat360/halimat-yaya-snaps-sprint"
     },
     {
-        "id": "92c88f9c-7cb3-4427-8613-ebc4c8bdbf09",
-        "photo": "/images/inspireShare.png",
-        "projectName": "InspireShare",
-        "description":"InspireShare is an app designed to spread love and positivity by helping users create personalized cards.",
-        "stack": ["JavaScript", "Express.js", "Scss" , "React"],
-        "url": "https://drive.google.com/file/d/1V8PkPfQ0YD9O_GiltM9XM2KkEX1paljk/view?usp=sharing",
-        "code": "https://github.com/Sadiat360/inspireShare-client"
-    },
-    {
-        "id": "dc91f344-a544-49be-958b-a26e7172c370",
-        "photo": "/images/scotia.png",
-        "projectName": "Scotia Bank Hackathon",
-        "description":"Our team redesigned and introduced a chatbot feature to enhance user experience and customer retention on the ScotiaMcLeod® - Scotia Wealth Management page for submission to the Industry Project Tech Sprint.",
-        "stack": ["JavaScript", "CSS" , "HTML"],
-        "url": "https://drive.google.com/file/d/13Ol9i2K48TKrP8PipVemdl7qFG44UzOR/view?usp=sharing",
-        "code": "https://github.com/andreaholstein/industry-project-client"
-    },
-    {
         "id": "dc91f344-a544-49be-958b-a26e7172c370",
         "photo": "/images/Bandsite.png",
         "projectName": "Bandsite",
@@ -35,6 +17,25 @@
         "url": "https://bandsite-band.netlify.app/",
         "code": "https://github.com/Sadiat360/halimat-yaya-bandsite-1"
     },
+    {
+        "id": "dc91f344-a544-49be-958b-a26e7172c370",
+        "photo": "/images/scotia.png",
+        "projectName": "Scotia Bank Hackathon",
+        "description":"Our team redesigned and introduced a chatbot feature to enhance user experience and customer retention on the ScotiaMcLeod® - Scotia Wealth Management page for submission to the Industry Project Tech Sprint.",
+        "stack": ["JavaScript", "CSS" , "HTML"],
+        "url": "https://drive.google.com/file/d/1_Icu0xXYS0Mh9uPTV0-uxVLI-ZxAt4AG/view?usp=sharing",
+        "code": "https://github.com/andreaholstein/industry-project-client"
+    },
+    {
+        "id": "92c88f9c-7cb3-4427-8613-ebc4c8bdbf09",
+        "photo": "/images/inspireShare.png",
+        "projectName": "InspireShare",
+        "description":"InspireShare is an app designed to spread love and positivity by helping users create personalized cards.",
+        "stack": ["JavaScript", "Express.js", "Scss" , "React"],
+        "url": "https://drive.google.com/file/d/1V8PkPfQ0YD9O_GiltM9XM2KkEX1paljk/view?usp=sharing",
+        "code": "https://github.com/Sadiat360/inspireShare-client"
+    },
+   
     {
         "id": "718a9e21-18ac-4088-b26c-2b5de75152bb",
         "photo": "/images/Instock.png",
