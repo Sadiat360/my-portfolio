@@ -39,6 +39,12 @@ function TeckStack(){
                           <MysqlSvg className='techStack__image' />
                        </div>
                        <div className="techStack__box">
+                           <HerokuSvg className='techStack__image' />
+                        </div>
+                       
+                    </div>
+                    <div className='techStack__frame'>
+                       <div className="techStack__box">
                           <GitSvg className='techStack__image' />
                        </div>
                        <div className="techStack__box">
@@ -47,12 +53,18 @@ function TeckStack(){
                        <div className="techStack__box">
                           <MiroSvg className='techStack__image' />
                        </div>
-                    </div>
-
-                  <div className='techStack__frame'>
                        <div className="techStack__box">
                            <SqlSvg className='techStack__image' />
                         </div>
+                        
+                        <div className="techStack__box">
+                           <PostmanSvg className='techStack__image' />
+                        </div>
+
+                    </div>
+
+                  <div className='techStack__frame'>
+                      
                         <div className="techStack__box">
                            <CssSvg className='techStack__image' />
                         </div>
@@ -65,13 +77,7 @@ function TeckStack(){
                         <div className="techStack__box">
                            <WebflowSvg className='techStack__image' />
                         </div>
-                        <div className="techStack__box">
-                           <HerokuSvg className='techStack__image' />
-                        </div>
-                        <div className="techStack__box">
-                           <PostmanSvg className='techStack__image' />
-                        </div>
-
+                       
                   </div>
             </div>
             <article className='techStack__projects'>
