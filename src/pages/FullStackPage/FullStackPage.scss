@@ -18,8 +18,7 @@
     }
 
     &__frame{
-        width: 80%;
-        height: 500px;
+        height: 31.25rem;
         background-color: $white-color;
         margin:  0 auto;
         @include box-shadow;
@@ -32,8 +31,8 @@
 
         @include tablet{
             width: 80%;
-            height: 300px;
-            max-width: 900px;
+            height: 18.75rem;
+            max-width: 56.25rem;
             margin-bottom: 5rem;
             @include flex-center(row);
 
@@ -93,7 +92,7 @@
         }
     }
     &__links{
-        width: 150px;
+        width: 9.375rem;
         @include flex-center(row);
         justify-content: space-between;
         margin: 0 auto;

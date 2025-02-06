@@ -16,12 +16,14 @@ import MiroSvg from '../../helpers/MiroSvg/MiroSvg.jsx';
 import PostmanSvg from '../../helpers/PostmanSvg/PostmanSvg.jsx';
 import devData from '../../assets/images/dev.png'
 import uxData from '../../assets/images/ux.png'
+import GitSvg from '../../helpers/GitSvg/GitSvg.jsx';
+import WebflowSvg from '../../helpers/WebflowSvg/WebflowSvg.jsx';
 
 function TeckStack(){
     return(
         <section className="techStack">
             <h2 className=" techStack__heading h2">Tech Stack</h2>
-            <div className="techStack__container">
+          
                 <div className="techStack__wrap">
                     <div className='techStack__frame'>
                        <div className="techStack__box">
@@ -35,6 +37,9 @@ function TeckStack(){
                        </div>
                        <div className="techStack__box">
                           <MysqlSvg className='techStack__image' />
+                       </div>
+                       <div className="techStack__box">
+                          <GitSvg className='techStack__image' />
                        </div>
                        <div className="techStack__box">
                           <FigmaSvg className='techStack__image' />
@@ -58,6 +63,9 @@ function TeckStack(){
                            <SassSvg className='techStack__image' />
                         </div>
                         <div className="techStack__box">
+                           <WebflowSvg className='techStack__image' />
+                        </div>
+                        <div className="techStack__box">
                            <HerokuSvg className='techStack__image' />
                         </div>
                         <div className="techStack__box">
@@ -65,9 +73,6 @@ function TeckStack(){
                         </div>
 
                   </div>
-                   
-                    
-                </div>
             </div>
             <article className='techStack__projects'>
             <h2 className=" techStack__heading h2">Projects</h2>
