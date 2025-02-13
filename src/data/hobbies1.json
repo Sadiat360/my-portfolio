@@ -1,18 +1,17 @@
 [
     {
         "id": "a81b35fc-38f3-45d1-9453-1a56e1d1f240",
-        "image": "/images/personal1.png",
-        "location": "Bahamas"
+        "image": "/images/personal 1.png"
+        
     },
     {
         "id": "f3d758fb-3fe2-4d55-8c8c-1f3a2db5c2d3",
-        "image": "/images/personal2.png",
-        "location": "Bahamas"
+        "image": "/images/personal 2.png"
+       
     },
     {
         "id": "c1e604cb-075d-4737-9ea5-fb2d5e08b930",
-        "image": "/images/personal3.png",
-        "location": "Bahamas"
+        "image": "/images/personal 3.png"
     }
     
 ]

@@ -26,8 +26,8 @@ function AboutMePage(){
                 <p className='p1'>I am focused on building user-centric, responsive, and dynamic website solutions. My expertise spans both <strong>front-end</strong> and <strong>back-end</strong> development, with a tech stack that includes <span className='about__java'>JavaScript</span>, <span className='about__react'>React</span>,<span className='about__html'>HTML</span> , <span className='about__css'>CSS</span>,<span className='about__sass'>Sass</span> , <span className='about__node'>Node.js</span> , <span className='about__express'>Express</span>,and  <span className='about__react'>RESTful APIs</span> .</p>
             </article>
             <article className='about__article'>
-                <h2 className='h2'>Outside workspace</h2>
-                <p className='p1'>I love traveling, drawing,sewing,watching movies and just enjoying life whenever i am not working. Below are some of my outside workspace activities that i curated just for you.... </p>
+                <h2 className='h2'>Outside of workspace</h2>
+                <p className='p1'>I love traveling, drawing, sewing, photography and just enjoying life whenever i am not working. Below are some of my outside of workspace activities that i curated.... </p>
             </article>
            
           </div>

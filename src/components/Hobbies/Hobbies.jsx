@@ -1,9 +1,9 @@
 import './Hobbies.scss';
 import {DotLottieReact} from '@lottiefiles/dotlottie-react';
 import { useEffect, useState } from 'react';
-import personal1 from '../../assets/images/personal1.png'
-import personal2 from '../../assets/images/personal2.png'
-import personal3 from '../../assets/images/personal3.png'
+import personal12 from '../../assets/images/personal 12.png'
+import personal13 from '../../assets/images/personal 13.png'
+import personal14 from '../../assets/images/personal 14.png'
 import MoreHobbies from '../MoreHobbies/MoreHobbies.jsx';
 
 function Hobbies(){
@@ -42,19 +42,20 @@ function Hobbies(){
         }, [isOpen]);
     
     return(
-
+        <>
+        
         <section className='hobbies'>
              <div className='hobbies__wrap'>
                 <div className='hobbies__container'>
                    <div className='hobbies__frame'>
-                      <img className='hobbies__image' src={personal1} alt="image" />
+                      <img className='hobbies__image' src={ personal12} alt="image" />
                      </div>
                      <div className='hobbies__frame'>
-                      <img className='hobbies__image' src={personal2} alt="image" />
+                      <img className='hobbies__image' src={ personal13} alt="image" />
 
                      </div>
                      <div className='hobbies__frame'>
-                      <img className='hobbies__image' src={personal3} alt="image" />
+                      <img className='hobbies__image' src={ personal14} alt="image" />
 
                      </div>
 
@@ -70,11 +71,13 @@ function Hobbies(){
               /> )}
               
              </div>
-            
-              
-            {showImages ? ( <MoreHobbies/>): null}
+        
          
       </section>
+      <section className='more'>
+          {showImages ? ( <MoreHobbies/>): null}
+      </section>
+      </>
        
     )
 }
