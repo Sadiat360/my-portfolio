@@ -1,18 +1,18 @@
 import './ProjectItem.scss'
 import { useState } from 'react';
-import photosData from '../../data/photos.json'
+import DevData from '../../data/Dev.json'
 import { FaGithub } from "react-icons/fa6";
 import { LuSquareArrowOutUpRight } from "react-icons/lu";
 
 
 function ProjectItem(){
-      const [photos, setPhotos] = useState([photosData]);
+      const [photos, setPhotos] = useState([DevData]);
 
    
 
     return(
         <>
-             {photosData.map((photo,index)=>{
+             {DevData.map((photo,index)=>{
                 return(
                   <div className='projects__frame'>
                      

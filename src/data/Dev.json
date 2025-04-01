@@ -32,7 +32,7 @@
         "projectName": "InspireShare",
         "description":"InspireShare is an app designed to spread love and positivity by helping users create personalized cards.",
         "stack": ["JavaScript", "Express.js", "Scss" , "React"],
-        "url": "https://drive.google.com/file/d/1V8PkPfQ0YD9O_GiltM9XM2KkEX1paljk/view?usp=sharing",
+        "url": "https://inspireshare.netlify.app/",
         "code": "https://github.com/Sadiat360/inspireShare-client"
     },
    
